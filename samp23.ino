@@ -1,3 +1,9 @@
+//arduino code, determines if PIR sensor is on, and if no acceleration (using MPU6050), then finVal= 1
+//finVal is sent to connecting MIT App Inventor Code that can manually override signals by user using a button
+//if button pressed, out is 0 and module turned off for 5 minutes, otherwise finVal=out
+//out1 blinks lights in vehicle
+//out 2 turns on sirens in vehicle
+
 int pirInput = A3;
 int accValue;
 int accValue1;
